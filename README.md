@@ -9,7 +9,7 @@ Cette application est une plateforme web orientée autour de la recherche et de 
 - filtrer les films selon plusieurs critéres ;
 - afficher les détails d'un film (résumé, durée, année, genres, pays, acteurs, réalisateurs, bande d'annonce) ;
 - louer un film si le client est reconnu et si la régle de forfait le permet ;
-- consulter des informations liées au client, é son forfait et é ses locations.
+- consulter des informations liées au client, à son forfait et à ses locations.
 
 Le projet est composé d'un backend en Node.js/TypeScript et d'un frontend en Vue.js.
 
@@ -22,8 +22,8 @@ Le backend est dans le dossier `backend-node`.
 Il utilise :
 
 - Express pour exposer les API REST ;
-- TypeORM pour accéder é une base Oracle ;
-- des routes dédiées é la connexion, aux films, aux personnes, aux clients et aux locations.
+- TypeORM pour accéder à une base Oracle ;
+- des routes dédiées à la connexion, aux films, aux personnes, aux clients et aux locations.
 
 Les routes principales visibles dans le code sont :
 
